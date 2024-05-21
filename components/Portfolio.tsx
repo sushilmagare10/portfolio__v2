@@ -9,7 +9,7 @@ import { FaLocationArrow } from "react-icons/fa";
 const Portfolio = () => {
     return (
         <div className="py-20">
-            <h1 className="heading text-white">
+            <h1 className="heading capitalize text-white">
                 A small selection of{" "}
                 <span className="text-purple">recent projects</span>
             </h1>
