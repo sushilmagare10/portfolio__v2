@@ -164,24 +164,6 @@ export const TypewriterEffectSmooth = ({
                     {renderWords()}{" "}
                 </div>{" "}
             </motion.div>
-            <motion.span
-                initial={{
-                    opacity: 0,
-                }}
-                animate={{
-                    opacity: 1,
-                }}
-                transition={{
-                    duration: 0.8,
-
-                    repeat: Infinity,
-                    repeatType: "reverse",
-                }}
-                className={cn(
-                    "block rounded-sm w-[4px]  h-4 sm:h-6 xl:h-12 bg-blue-500",
-                    cursorClassName
-                )}
-            ></motion.span>
         </div>
     );
 };
