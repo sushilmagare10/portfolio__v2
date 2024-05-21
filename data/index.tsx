@@ -78,7 +78,7 @@ export const projects = [
         id: 3,
         title: "ShopCart - MERN Stack",
         img: "/shopcart.jpg",
-        iconLists: ["/re.svg", "/mongodb.svg", "/styled-components.svg", "/nodejs-icon.svg", "/redux.svg", "/react-router.svg"],
+        iconLists: ["/re.svg", "/mongodb.svg", "/styled-components.svg", "/redux.svg", "/react-router.svg"],
     },
     {
         id: 4,

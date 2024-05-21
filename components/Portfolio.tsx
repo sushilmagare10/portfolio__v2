@@ -3,12 +3,13 @@
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 import Link from "next/link";
+import { FaLocationArrow } from "react-icons/fa";
 
 
 const Portfolio = () => {
     return (
         <div className="py-20">
-            <h1 className="heading">
+            <h1 className="heading text-white">
                 A small selection of{" "}
                 <span className="text-purple">recent projects</span>
             </h1>
@@ -52,7 +53,7 @@ const Portfolio = () => {
                                     <p className="flex lg:text-lg font-semibold md:text-xs text-sm text-purple">
                                         Check Live Site
                                     </p>
-                                    {/* <FaLocationArrow className="ms-3" color="#CBACF9" /> */}
+                                    <FaLocationArrow className="ms-3" color="#CBACF9" />
                                 </a>
                             </div>
                         </PinContainer>
