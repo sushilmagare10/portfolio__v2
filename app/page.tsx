@@ -1,6 +1,7 @@
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Portfolio from "@/components/Portfolio";
+import Stack from "@/components/Stack";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <Portfolio />
+        <Stack />
       </div>
     </main>
   );
