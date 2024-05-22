@@ -8,6 +8,8 @@ import Portfolio from "@/components/Portfolio";
 import Stack from "@/components/Stack";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Image from "next/image";
+import Footer from "@/components/Contact";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
         <Grid />
         <Portfolio />
         <Stack />
+        <Contact />
+
       </div>
     </main>
   );

@@ -5,31 +5,25 @@ const Stack = () => {
 
     const words = [
         {
-            text: "The",
-        },
-        {
-            text: "awesome",
-        },
-        {
-            text: "Stack",
-            className: "text-purple font-extrabold text-6xl ",
-        },
-        {
-            text: "That",
+            text: "What",
         },
         {
             text: "I",
         },
         {
-            text: "Use",
-            className: "text-purple "
-        }
+            text: "DO",
+            className: "text-purple font-extrabold text-6xl ",
+        },
+        {
+            text: "/",
+        },
     ];
 
     return (
         <div id='stack' className=' h-full w-full flex flex-col justify-center items-center my-10'>
-            <div className=' flex justify-center items-start h-full w-full'>
-                <TypewriterEffectSmooth words={words} />
+            <div className=' flex justify-center text-[5vw] font-bold text-white items-start h-full w-full'>
+                {/* <TypewriterEffectSmooth words={words} /> */}
+                What i Do ?
             </div>
             {/* left side */}
             <div className=' w-full h-full gap-6 flex mt-5 justify-between items-center text-white '>
