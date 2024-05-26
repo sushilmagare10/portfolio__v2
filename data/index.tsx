@@ -1,9 +1,7 @@
-import { title } from "process";
-
 export const navItems = [
+    { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
     { name: "Porttfolio", link: "#portfolio" },
-    { name: "Stack", link: "#stack" },
     { name: "Contact", link: "#contact" },
 ];
 
@@ -94,14 +92,27 @@ export const projects = [
 export const socialMedia = [
     {
         id: 1,
+        title: "Github",
         img: "/git.svg",
+        link: "https://github.com/sushilmagare10"
     },
     {
         id: 2,
+        title: "X",
         img: "/twit.svg",
+        link: "https://x.com/Sushil__SM"
     },
     {
         id: 3,
+        title: "LinkedIn",
         img: "/link.svg",
+        link: "https://www.linkedin.com/in/sushil-magare/"
     },
+    {
+        id: 4,
+        title: "Istagram",
+        img: "/insta.svg",
+        link: "https://www.instagram.com/_bytelog_/"
+    },
+
 ];

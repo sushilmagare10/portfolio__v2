@@ -54,7 +54,7 @@ const Contact = () => {
             <form
                 ref={form}
                 onSubmit={sendEmail}
-                className='mt-10 flex flex-col px-44 gap-3'
+                className='mt-10 flex flex-col lg:px-44 gap-3'
             >
                 <input
                     name='user_email'
@@ -70,8 +70,11 @@ const Contact = () => {
                     maxLength={5000}
                     className='h-52 rounded-lg border border-black-300 px-4 pt-6 bg-black-200 text-white-100' />
                 <MagicButton
-                    title="Send Message"
-                    className="w-full" />
+                    title="Send Mail"
+                    icon={<FaLocationArrow />}
+                    position="right"
+                />
+
                 {success && (
                     <span className="text-green-600 font-semibold">
                         Your message has been sent successfully!

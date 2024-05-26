@@ -5,10 +5,8 @@ import { navItems } from "@/data";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Portfolio from "@/components/Portfolio";
-import Stack from "@/components/Stack";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import Image from "next/image";
-import Footer from "@/components/Contact";
+import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -19,9 +17,8 @@ export default function Home() {
         <Hero />
         <Grid />
         <Portfolio />
-        <Stack />
         <Contact />
-
+        <Footer />
       </div>
     </main>
   );
