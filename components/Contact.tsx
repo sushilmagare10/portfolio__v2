@@ -7,7 +7,6 @@ import { FormEvent, useRef, useState } from "react";
 const Contact = () => {
     const [success, setSuccess] = useState(false);
     const [error, setError] = useState(false);
-    const text = "Say Hello";
 
     const form = useRef<HTMLFormElement>(null);
 
@@ -40,7 +39,7 @@ const Contact = () => {
         }
     };
     return (
-        <section className="w-full pt-20 pb-10" id="contact">
+        <section className=" relative w-full pt-20 pb-10 z-50" id="contact">
             <div className="flex flex-col text-white items-center">
                 <h1 className="heading lg:max-w-[45vw]">
                     Ready to take <span className="text-purple">your</span> digital
@@ -54,7 +53,7 @@ const Contact = () => {
             <form
                 ref={form}
                 onSubmit={sendEmail}
-                className='mt-10 flex flex-col lg:px-44 gap-3'
+                className='mt-10 flex flex-col lg:px-44 gap-3 '
             >
                 <input
                     name='user_email'
@@ -62,18 +61,21 @@ const Contact = () => {
                     placeholder='Your Email'
                     required
                     maxLength={500}
-                    className='h-14 rounded-lg border border-black-300 px-4 bg-black-200 text-white-100' />
+                    className='h-14 rounded-lg border focus:outline-none border-black-300 px-4 bg-black-200 text-white-100' />
                 <textarea
                     name='user_message'
                     placeholder='Your Message...'
                     required
                     maxLength={5000}
-                    className='h-52 rounded-lg border border-black-300 px-4 pt-6 bg-black-200 text-white-100' />
-                <MagicButton
-                    title="Send Mail"
-                    icon={<FaLocationArrow />}
-                    position="right"
-                />
+                    className='h-52 rounded-lg border focus:outline-none border-black-300 px-4 pt-6 bg-black-200 text-white-100' />
+                <div className=" w-full cursor-pointer">
+
+                    <MagicButton
+                        title="Send Mail"
+                        icon={<FaLocationArrow />}
+                        position="right"
+                    />
+                </div>
 
                 {success && (
                     <span className="text-green-600 font-semibold">
