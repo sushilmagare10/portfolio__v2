@@ -23,7 +23,7 @@ const Portfolio = () => {
                             title={item.title}
                             href={item.link}
                         >
-                            <div className="relative flex rotate-1 items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+                            <div className="relative flex rotate-1 items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[30vh] mb-10">
                                 <img
                                     src={item.img}
                                     alt="cover"

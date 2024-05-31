@@ -28,7 +28,7 @@ const Footer = () => {
                                 )}
                             >
                                 <span className="block sm:hidden">{navItem.icon}</span>
-                                <span className=" text-xl !cursor-pointer">{navItem.name}</span>
+                                <span className=" text-lg !cursor-pointer">{navItem.name}</span>
                             </Link>
                         ))}
                     </div>
@@ -41,7 +41,7 @@ const Footer = () => {
                                 <div className="w-[34px] h-[34px] cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
                                     <img src={info.img} alt="icons" width={20} height={20} />
                                 </div>
-                                <span className='font-medium text-xl z-40 text-white-200'>
+                                <span className='font-medium text-lg z-40 text-white-200'>
                                     {info.title}
                                 </span>
                             </Link>
@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className=' flex px-5 justify-start flex-col md:flex-row items-start lg:px-44 text-white font-bold text-4xl gap-2'>
+            <div className=' flex px-5 justify-start flex-col md:flex-row items-start lg:px-44 text-white font-bold text-3xl md:text-4xl gap-2'>
                 <span>
                     Folio @ 2024
                 </span>
