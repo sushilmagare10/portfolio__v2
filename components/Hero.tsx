@@ -34,7 +34,7 @@ const Hero = () => {
                     </p>
                     <TextGenerateEffect
                         words="Designing Dreams into Delightful Experiences"
-                        className="text-center text-[40px] md:text-5xl lg:text-8xl leading-none tracking-tighter"
+                        className="text-center text-[40px] md:text-5xl lg:text-7xl leading-none tracking-tighter"
                     />
                     <p className="text-center text-white md:tracking-wider mb-10 text-sm md:text-lg lg:text-2xl">
                         Hi! I&apos;m Sushil, a Next.js Developer based in India.
